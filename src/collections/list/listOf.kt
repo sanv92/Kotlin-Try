@@ -23,4 +23,18 @@ fun main(args: Array<String>) {
 
     val result1 = list.map { it.name }
     println("result: $result1")
+
+    println("------------")
+
+    println(list.all { it == User("User 11") })
+    println(list.any { it == User("User 11") })
+    println(list.any { it == User("User 88") })
+
+    println("------------")
+
+    val list2 = listOf(1, 2, 4)
+
+    println(list2.all { it == 4 })
+    println(list2.any { it == 3 })
+    println(list2.any { it == 4 })
 }
