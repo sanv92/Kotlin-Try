@@ -3,7 +3,7 @@ package collections.list
 
 fun main(args: Array<String>) {
     /**
-     * Array
+     * Arrays$ArrayList
      */
     val list = listOf<User>(
             User("User 11"),
